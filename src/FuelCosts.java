@@ -7,10 +7,10 @@ public class FuelCosts {
         double numGallon = 0;
         double fuelEfficiency = 0;
         double gasPrice = 0;
-        boolean valid = false;
-        boolean trueOne = false;
-        boolean trueTwo = false;
-        boolean trueThree = false;
+        boolean valid = true;
+        boolean trueOne = true;
+        boolean trueTwo = true;
+        boolean trueThree = true;
 
         do {
             System.out.println("Please enter a value for Number of Gallons.");
@@ -23,15 +23,18 @@ public class FuelCosts {
 
                 if (numGallon >= 0);
 
-                }
+                } else {
+                trueOne = false;
+            }
 
 
 
 
+            if (trueOne || trueTwo || trueThree = false){
+                valid = false;
+            }
 
-
-
-        } while (!valid);
+        } while (valid);
 
 
 
