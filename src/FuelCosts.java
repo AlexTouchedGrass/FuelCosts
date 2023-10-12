@@ -114,7 +114,7 @@ public class FuelCosts {
             System.out.printf("\nFuel Efficiency : %8.2f",fuelEfficiency);
             System.out.printf("\nGas Price       : %8.2f", gasPrice);
             System.out.printf("\n Cost per 100 miles in $ :%5.2f", costPer100);
-            System.out.printf("\n Cost per 100 miles in $ :%5.2f", totalDistance);
+            System.out.printf("\n Miles that your car can go with a full tank :%5.2f", totalDistance);
 
 
 
